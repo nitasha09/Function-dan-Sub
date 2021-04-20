@@ -58,7 +58,7 @@ Partial Class Form1
         'lbl2
         '
         Me.lbl2.AutoSize = True
-        Me.lbl2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl2.Location = New System.Drawing.Point(492, 151)
         Me.lbl2.Name = "lbl2"
         Me.lbl2.Size = New System.Drawing.Size(65, 20)
@@ -67,6 +67,7 @@ Partial Class Form1
         '
         'txtbox1
         '
+        Me.txtbox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbox1.Location = New System.Drawing.Point(120, 151)
         Me.txtbox1.Name = "txtbox1"
         Me.txtbox1.Size = New System.Drawing.Size(155, 22)
@@ -74,6 +75,7 @@ Partial Class Form1
         '
         'txtbox2
         '
+        Me.txtbox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbox2.Location = New System.Drawing.Point(120, 336)
         Me.txtbox2.Name = "txtbox2"
         Me.txtbox2.Size = New System.Drawing.Size(155, 22)
@@ -125,7 +127,7 @@ Partial Class Form1
         'lbl4
         '
         Me.lbl4.AutoSize = True
-        Me.lbl4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl4.Location = New System.Drawing.Point(492, 336)
         Me.lbl4.Name = "lbl4"
         Me.lbl4.Size = New System.Drawing.Size(65, 20)
