@@ -18,7 +18,6 @@
         Dim strInsert As String
     End Sub
 
-
     Function paparNama()
         lbl3.Text = "Quotes By"
     End Function
