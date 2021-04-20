@@ -137,7 +137,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.BurlyWood
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(789, 404)
         Me.Controls.Add(Me.lbl4)
         Me.Controls.Add(Me.lbl3)
         Me.Controls.Add(Me.btn4)
