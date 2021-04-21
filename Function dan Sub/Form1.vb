@@ -14,7 +14,7 @@
     End Sub
 
     Private Sub Quotes(ByRef strQuotes As String)
-        strQuotes = "Hello " & strQuotes
+        strQuotes = "Hello  " & strQuotes
     End Sub
 
     Function paparNama()
