@@ -14,7 +14,7 @@
         Quotes(strQuotes:=txtbox1.Text)
     End Sub
 
-    Private Sub Quotes(strQuotes As String)
+    Private Sub Quotes(ByVal strQuotes As String)
         Dim strInsert As String
     End Sub
 
@@ -26,7 +26,7 @@
         paparNama()
     End Function
 
-    Function Quotesby(strQuotesby As String)
+    Function Quotesby(ByVal strQuotesby As String)
         Dim strInsert2 As String
     End Function
 
