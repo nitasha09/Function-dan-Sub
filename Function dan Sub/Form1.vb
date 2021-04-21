@@ -37,4 +37,5 @@
         Quotesby(strQuotesby:=txtbox2.Text)
     End Function
 
+
 End Class
